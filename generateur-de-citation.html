@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="generateur-citation.css"/>
+  </head>
+  <body>
+    <h1>Mon générateur de citations</h1>
+    <div class="container">
+        <form method='post' action='fichier php'>
+          <select id='theme' name='theme'>
+            <option id='choix-theme' value='le-theme'>Choisi ton thème</option>
+            <option id='travail' value='taf'>1.Le travail</option>
+            <option id='argent' value='monnaie'>2.L'argent</option>
+          </select>
+        </form>
+        <form method='post' action='#'>
+          <select id='nb-citation' name='nbcitation'>
+            <option id='nombre-citation' value='nbcitation'>Nombre de citation</option>
+            <option id='un' name='nbCitation' value='1'>1</option>
+            <option id='deux' name='nbCitation' value='2'>2</option>
+            <option id='trois' name='nbCitation' value='3'>3</option>
+            <option id ='quatre' name='nbCitation' value='4'>4</option>
+            <option id='cinq' name='nbCitation' value='5'>5</option>
+          </select>
+      </form>
+        <button id='start'>C'est parti</button>
+        <button id='end'>Fin</button>
+        <div id='mes-citations'></div>
+    </div>
+<script src = 'blabla.js'></script>
+<script src = 'main.js'></script> 
+</body>
+</html>

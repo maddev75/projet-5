@@ -1,0 +1,31 @@
+body {
+  background-color: #1A237E;
+}
+#bloc-citation {
+  color: white;
+  margin-top: 50px;
+}
+select {
+  padding: 3px;
+}
+button {
+  padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+  }
+  .container {
+    font-size: 25px;
+    text-align: center;
+  }
+  #bouton {
+    padding: 20px;
+  }
+  .div-citation {
+    font-size: 25px;
+    color: white;
+    border: solid 1px black;
+    text-align: center;
+  }
