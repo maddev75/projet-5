@@ -1,31 +1,36 @@
 body {
-  background-color: #1A237E;
+  background-image: linear-gradient(to right, #90caf9, #bbdefb, #90caf9);
 }
-#bloc-citation {
-  color: white;
-  margin-top: 50px;
+h1 {
+  text-align: center;
+  color: black;
 }
-select {
-  padding: 3px;
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
 }
 button {
   padding: 5px;
 }
-
-h1 {
-    text-align: center;
-    color: white;
-  }
-  .container {
-    font-size: 25px;
-    text-align: center;
-  }
-  #bouton {
-    padding: 20px;
-  }
-  .div-citation {
-    font-size: 25px;
-    color: white;
-    border: solid 1px black;
-    text-align: center;
-  }
+#theme.form-select.form-select-lg.mb-3 {
+  width: 300px;
+}
+#nb-citation.form-select.form-select-lg.mb-3 {
+  width: 300px;
+}
+select {
+  padding: 3px;
+}
+.div-citation {
+  font-size: 25px;
+  color: black;
+  text-align: center;
+}
+#mes-citations {
+  margin-top: 75px;
+}
